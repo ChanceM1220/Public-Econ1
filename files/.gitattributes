@@ -1,0 +1,18 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Python files
+*.py text diff=python
+
+# Data files
+*.xlsx binary
+*.csv text
+
+# Documentation
+*.md text diff=markdown
+
+# Config
+*.txt text
+*.toml text
+*.yaml text
+*.yml text
